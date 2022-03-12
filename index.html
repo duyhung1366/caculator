@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px ;
+            margin: 100px 0px 0px 50px ;
+        }
+        
+        #khung {
+            margin: 0px ;
+            padding : 15px 15px 25px 15px ; 
+            border: 2px solid #333; 
+            width : 315px ; 
+        }
+        #ketqua {
+            margin : 5px 0px 15px 15px ;
+            padding: 15px ;
+            text-align: right;
+            width : 285px; 
+            border: 2px solid red ;
+            border-radius: 3px ;
+        }
+
+        .clear_all{
+                clear: both;
+        }
+        button {
+            margin: 0px 0px 15px 15px ;
+            padding : 10px 10px 10px 10px ; 
+            float: left ;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: #666;
+            color: blanchedalmond;
+            border : 1px solid black; 
+            border-radius: 4px;
+            cursor: pointer;
+            transition-duration: 0.4s ;
+            width: 60px;
+        }
+        button:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id = "khung">
+          <input type="button" id = "ketqua" value = "0" />
+          <div class ="clear_all"></div> 
+
+          <button  onClick="ClickButton(this)">CE</button>
+          <button  onClick="ClickButton(this)">xoa</button>
+          <button  onClick="ClickButton(this)">%</button>
+          <button  onClick="ClickButton(this)">+</button>
+          
+          <div class ="clear_all"></div> 
+ 
+          <button onClick ="ClickButton(this)">7</button>
+          <button onClick = "ClickButton(this)">8</button>
+          <button onClick = "ClickButton(this)">9</button>
+          <button onClick = "ClickButton(this)">-</button>
+
+          <div class ="clear_all"></div> 
+
+          <button onClick="ClickButton(this)">4</button>
+          <button onClick="ClickButton(this)">5</button>
+          <button onClick="ClickButton(this)">6</button>
+          <button onClick="ClickButton(this)">x</button>
+
+          <div class ="clear_all"></div> 
+
+          <button onClick="ClickButton(this)">1</button>
+          <button onClick="ClickButton(this)">2</button>
+          <button onClick="ClickButton(this)">3</button>
+          <button onClick="ClickButton(this)">/</button>
+
+          <div class ="clear_all"></div> 
+
+          <button onClick="ClickButton(this)">0</button>
+          <button onClick="ClickButton(this)">+/-</button>
+          <button onClick="ClickButton(this)">.</button>
+          <button onClick="ClickButton(this)">=</button>
+
+          <div class ="clear_all"></div> 
+          <hr>
+          <div style="text-align: center; font-size: 25px;">nguyen duy hung</div>
+    </div>
+    <script src="./code2.js"></script>
+</body>
+</html>
